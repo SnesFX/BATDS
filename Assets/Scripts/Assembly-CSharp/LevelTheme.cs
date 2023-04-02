@@ -1,0 +1,13 @@
+public enum LevelTheme
+{
+	HUB_1 = 0,
+	REGULAR_FLOOR = 1,
+	ALICE_FLOOR = 2,
+	PROJECTIONIST_FLOOR = 3,
+	REGLUAR_FL0OR = 4,
+	LOSTONE_FLOOR = 5,
+	REGULAR_A = 6,
+	REGULAR_P = 7,
+	FUSE_GAME = 8,
+	REGULAR_B = 9
+}

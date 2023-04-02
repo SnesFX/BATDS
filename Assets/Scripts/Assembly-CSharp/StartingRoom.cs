@@ -1,0 +1,8 @@
+public enum StartingRoom
+{
+	HUB_1 = 0,
+	REGULAR_FLOOR = 1,
+	ALICE_FLOOR = 2,
+	PROJECTIONIST_FLOOR = 3,
+	REGLUAR_FL0OR = 4
+}

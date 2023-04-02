@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c9d4bae4939e9804a63e15f715a8c1, type: 3}
+  m_Name: FLOOR 414
+  m_EditorClassIdentifier:
+  SkyColorModifier: {r: 0.081, g: 0.072000004, b: 0.09, a: 1}
+  MonsterToActivate: 6
+  PlayerToActivate: 1
+  StartingRoom: 4
+  Rooms:
+  - {fileID: 114540049850846601, guid: 9b01c44573c805e4da83f9d8a53548d1, type: 2}
+  - {fileID: 114653024066760309, guid: 38f1082cc2c3805498f3b5939c49ea43, type: 2}
+  ShoppingItems:
+  - {fileID: 114377279187845886, guid: a1da66d094a18364683e7b5c9cd9d82a, type: 2}
+  - {fileID: 114467425584073450, guid: 5df5d16a8d5c7b44fa57e9487fdaeb9d, type: 2}
+  - {fileID: 114399731994238088, guid: 772387e395e971e4a96a50067c3e0cb0, type: 2}
+  - {fileID: 114740160985561816, guid: b7cfeff66ccd9574cb4ba12a7d81c4e5, type: 2}
+  - {fileID: 114339328433473526, guid: 91dacdd9ef5c40949a84052bec79fddb, type: 2}
+  - {fileID: 114234053028012441, guid: 9057ca5254910014fa4a33bf3270db97, type: 2}
+  - {fileID: 114101532179101297, guid: 2e94dccb5778f8d4e9fd74ff5e1e98d2, type: 2}
+  CanSpawnHearts: 1
+  CanSpawnLogs: 1
+  ForceRoomCount: 6

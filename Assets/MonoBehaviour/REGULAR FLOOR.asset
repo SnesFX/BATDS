@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c9d4bae4939e9804a63e15f715a8c1, type: 3}
+  m_Name: REGULAR FLOOR
+  m_EditorClassIdentifier:
+  SkyColorModifier: {r: 0.1, g: 0.088, b: 0.076, a: 1}
+  MonsterToActivate: 2
+  PlayerToActivate: 1
+  StartingRoom: 1
+  Rooms:
+  - {fileID: 114486645793003259, guid: 47e9147fa99d13044b5e23dee4ad35ec, type: 2}
+  - {fileID: 114912164216326445, guid: afec84fba1ad9154c9353a80e47d4278, type: 2}
+  - {fileID: 114808990900514601, guid: 4f31e555a01840a44b12db1086ec57aa, type: 2}
+  - {fileID: 114403411207202761, guid: e01e8b2abfea28d4a9d7922cbbbc2195, type: 2}
+  - {fileID: 114015363694323724, guid: 1184dd444ca60b24782518c331136201, type: 2}
+  - {fileID: 114917944669359804, guid: bdf6c215224a0354191c6d7bf419dc64, type: 2}
+  - {fileID: 114637132435922303, guid: 24ed426870b7a1b45adceaaa4d447345, type: 2}
+  - {fileID: 114626212491056473, guid: d85f1018908ba90479f1ce9e8e789502, type: 2}
+  - {fileID: 114808596996192309, guid: 78c075a1b93304944b8d54534697a696, type: 2}
+  - {fileID: 114839840825619551, guid: 7d9062e48af4f9c4d8be1660bd1577ed, type: 2}
+  - {fileID: 114441844430142581, guid: d7c575bfbe04c2d489aec58bb961dd40, type: 2}
+  - {fileID: 114603517614512110, guid: 7487b8f438e547d44acadcf3f5281561, type: 2}
+  - {fileID: 114519322540775590, guid: 3ea36a43e911ba94fa4268185a91d61c, type: 2}
+  - {fileID: 114450615465404992, guid: e1dea7f7222e1804ebc09db8bed0ddbb, type: 2}
+  - {fileID: 114251572239362385, guid: c53b226929cfc3240a331f9a2a6187cd, type: 2}
+  - {fileID: 114852570470464112, guid: 321aa7b36c1176c499ffa3446621f22c, type: 2}
+  - {fileID: 114989802729527296, guid: 7a5599b133eff3d42964282cd45f0516, type: 2}
+  - {fileID: 114363483147178473, guid: 9650ae1f19071ec4e87955be4238d8a0, type: 2}
+  - {fileID: 114101586910214750, guid: 21e0a0e21f55e0b44ad8c19101bd1f28, type: 2}
+  - {fileID: 114962010202218689, guid: d062ce6f2904f494ab3ce6a8f239eed1, type: 2}
+  - {fileID: 114613494962517950, guid: 5dfb1e408b2299c4688bf3caedf8fd80, type: 2}
+  - {fileID: 114243508889527220, guid: 9aa93bba2e8a1da4386bb0386495688a, type: 2}
+  - {fileID: 114245236492946198, guid: a638e14454490f349b9dd6715a23d2af, type: 2}
+  - {fileID: 114683198303145830, guid: 89c00cea9922042498a8aeb758f303cf, type: 2}
+  - {fileID: 114174201288354520, guid: 76850fa202a242848b9b5e3bb015946a, type: 2}
+  - {fileID: 114688795800851930, guid: 42c29372df011e847805dc09913f224e, type: 2}
+  - {fileID: 114708188613034702, guid: 65150a6d93d75044291f6fb5fce6d7ac, type: 2}
+  ShoppingItems:
+  - {fileID: 114377279187845886, guid: a1da66d094a18364683e7b5c9cd9d82a, type: 2}
+  - {fileID: 114467425584073450, guid: 5df5d16a8d5c7b44fa57e9487fdaeb9d, type: 2}
+  - {fileID: 114399731994238088, guid: 772387e395e971e4a96a50067c3e0cb0, type: 2}
+  - {fileID: 114740160985561816, guid: b7cfeff66ccd9574cb4ba12a7d81c4e5, type: 2}
+  - {fileID: 114339328433473526, guid: 91dacdd9ef5c40949a84052bec79fddb, type: 2}
+  - {fileID: 114234053028012441, guid: 9057ca5254910014fa4a33bf3270db97, type: 2}
+  - {fileID: 114101532179101297, guid: 2e94dccb5778f8d4e9fd74ff5e1e98d2, type: 2}
+  CanSpawnHearts: 1
+  CanSpawnLogs: 1
+  ForceRoomCount: -1

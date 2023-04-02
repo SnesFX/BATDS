@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Init.unity
+    guid: 9c3a0f6034189ed4ea15b2cad7493e46
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5ad0c11136f4aad49b1e2343c8494c1f
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 94ee5a258e7dd164597df6dccce0be37
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: c52e135d1fea1954a8b080d047161e0d
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: 14a64a46346af704ab0bdc6df39005c0
+  - enabled: 1
+    path: Assets/Scenes/Finalie.unity
+    guid: ee6e55f94dc4e594080e63a459e50b45
+  - enabled: 1
+    path: Assets/Scenes/BallGame.unity
+    guid: 53ddb3bfe9c49b34d973de99d59bd2eb
+  - enabled: 1
+    path: Assets/Scenes/AliceCutscene.unity
+    guid: 43eac9bd9eb33664693514ea03d593ac
+  m_configObjects: {}

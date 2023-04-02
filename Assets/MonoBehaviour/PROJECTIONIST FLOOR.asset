@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c9d4bae4939e9804a63e15f715a8c1, type: 3}
+  m_Name: PROJECTIONIST FLOOR
+  m_EditorClassIdentifier:
+  SkyColorModifier: {r: 0.1, g: 0.0735, b: 0.047000002, a: 1}
+  MonsterToActivate: 4
+  PlayerToActivate: 1
+  StartingRoom: 3
+  Rooms:
+  - {fileID: 114196299699236859, guid: 2c3cc76cf993c6943923044ea66f1ed2, type: 2}
+  - {fileID: 114838989247722565, guid: be084805bc08a964794e34bc0929aa2b, type: 2}
+  - {fileID: 114661188815929358, guid: a6d276f897071d84f86ea37ece5a9bc0, type: 2}
+  - {fileID: 114875842529553610, guid: af6cbda281c7ce4498930d04862e8a12, type: 2}
+  - {fileID: 114681144458776932, guid: 3d8317cfd1f803b468caaea1f9e04dae, type: 2}
+  - {fileID: 114869895952511103, guid: eeec1dbe8ca09e140b93fcb3d67f4075, type: 2}
+  - {fileID: 114086812487569317, guid: dd8e62eb991c43549a223f169db855dd, type: 2}
+  ShoppingItems:
+  - {fileID: 114976492987467239, guid: 07438967e9f42274097fce8f9e289263, type: 2}
+  CanSpawnHearts: 0
+  CanSpawnLogs: 0
+  ForceRoomCount: 10

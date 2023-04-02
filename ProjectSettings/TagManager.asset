@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fuseball_Pattle
+  - Fuseball_Fuse
+  - Fuseball_Bottom
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Template
+  - Doorway
+  - PostProcessing
+  - Enemy
+  - Interactable
+  - Avoidance
+  - BaconSoup
+  - Fuseball_Blocker
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Overtop
+    uniqueID: 566472587
+    locked: 0
