@@ -51,7 +51,8 @@ public class Fuseball_Ball : MonoBehaviour
 	private Vector3 Raycast()
 	{
 		Debug.DrawLine(previousPos, base.transform.position, Color.red);
-		if (Physics.Linecast(previousPos, base.transform.position, out var hitInfo, BounceLayers, QueryTriggerInteraction.Ignore))
+		RaycastHit hitInfo;
+        if (Physics.Linecast(previousPos, base.transform.position, out hitInfo, BounceLayers, QueryTriggerInteraction.Ignore))
 		{
 			base.transform.position = previousPos;
 		}

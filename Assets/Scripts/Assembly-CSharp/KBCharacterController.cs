@@ -250,7 +250,7 @@ public class KBCharacterController : MonoBehaviour
 
 	private void SolveColision()
 	{
-		_ = Vector3.zero;
+		float Vector3 = 0;
 		Vector3 CurrentPosition = base.transform.position;
 		Vector3 vector = base.transform.position - m_PreviousLocation;
 		RaycastHit hitInfo = default(RaycastHit);

@@ -11,7 +11,7 @@ public class AIController_Monster : BaseAiController
 	public override void DOInit()
 	{
 		base.DOInit();
-		m_BaseController.m_MovementLock.Lock(isStatic: false, 6f);
+		m_BaseController.m_MovementLock.Lock(false, 6f);
 		TrackingCount = 0;
 	}
 

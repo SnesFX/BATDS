@@ -110,7 +110,7 @@ public class UITransitionHelper : MonoBehaviour
 		switch (m_TransitionInType)
 		{
 		case UiTransitionType.FADE:
-			m_ActiveCoroutine = CoroutineRunner.Instance.StartCoroutine(FadeTransition(isTransitionIn: true, Multiplier));
+			m_ActiveCoroutine = CoroutineRunner.Instance.StartCoroutine(FadeTransition(true, Multiplier));
 			break;
 		case UiTransitionType.FILL:
 			m_ActiveCoroutine = CoroutineRunner.Instance.StartCoroutine(FillTransition(isTransitionIn: true));
@@ -136,7 +136,7 @@ public class UITransitionHelper : MonoBehaviour
 		switch (m_TransitionOutType)
 		{
 		case UiTransitionType.FADE:
-			m_ActiveCoroutine = CoroutineRunner.Instance.StartCoroutine(FadeTransition(isTransitionIn: false, Multiplier));
+			m_ActiveCoroutine = CoroutineRunner.Instance.StartCoroutine(FadeTransition(false, Multiplier));
 			break;
 		case UiTransitionType.FILL:
 			m_ActiveCoroutine = CoroutineRunner.Instance.StartCoroutine(FillTransition(isTransitionIn: false));
@@ -275,7 +275,7 @@ public class UITransitionHelper : MonoBehaviour
 		float seconds = (isTransitionIn ? FadeInDelay : FadeOutDelay);
 		yield return new WaitForSeconds(seconds);
 		RectTransform box = m_Graphic.rectTransform;
-		_ = (Vector2)Vector3.zero;
+		Vector2 myVector = Vector2.zero;
 		if (isTransitionIn && EffectRaycastTargetable)
 		{
 			m_Graphic.raycastTarget = true;

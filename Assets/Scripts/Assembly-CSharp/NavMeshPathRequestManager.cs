@@ -51,7 +51,8 @@ public class NavMeshPathRequestManager
 			}
 			return true;
 		}
-		if (NavMesh.SamplePosition(path_end, out var hit, sampleDistance, -1) && NavMesh.CalculatePath(path_start, hit.position, -1, m_path) && (m_path.status == NavMeshPathStatus.PathComplete || m_path.status == NavMeshPathStatus.PathPartial))
+		NavMeshHit hit;
+        if (NavMesh.SamplePosition(path_end, out hit, sampleDistance, -1) && NavMesh.CalculatePath(path_start, hit.position, -1, m_path) && (m_path.status == NavMeshPathStatus.PathComplete || m_path.status == NavMeshPathStatus.PathPartial))
 		{
 			int cornersNonAlloc = m_path.GetCornersNonAlloc(array);
 			path.Clear();

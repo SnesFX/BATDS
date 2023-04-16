@@ -80,7 +80,7 @@ public class BaseAiController : KBInputController
 		}
 		if (!Target.gameObject.activeInHierarchy)
 		{
-			m_BaseController.m_MovementLock.Lock(isStatic: false, 0.7f);
+			m_BaseController.m_MovementLock.Lock(false, 0.7f);
 			Target = null;
 			return;
 		}
@@ -143,7 +143,7 @@ public class BaseAiController : KBInputController
 		}
 		else if (m_path.Count == 0)
 		{
-			m_BaseController.m_MovementLock.Lock(isStatic: false, 2f);
+			m_BaseController.m_MovementLock.Lock(false, 2f);
 			m_path.Clear();
 			Target = null;
 		}
@@ -214,7 +214,7 @@ public class BaseAiController : KBInputController
 	public virtual void OnEnemySpotted()
 	{
 		m_path.Clear();
-		m_BaseController.m_MovementLock.Lock(isStatic: false, m_BaseController.SpotTargetDelayTime);
+		m_BaseController.m_MovementLock.Lock(false, m_BaseController.SpotTargetDelayTime);
 		m_BaseController.m_Animator.SetTrigger("TargetSeen");
 	}
 
