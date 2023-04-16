@@ -21,7 +21,7 @@ public class Interactable_VendingMachine : BaseInteractable
 			base.DoInteraction();
 			Anim.SetTrigger("Activate");
 			GameManager.Instance.IncreaseBorisStamina(1f);
-			GameManager.Instance.Player.m_MovementLock.Lock(false, 2.1f);
+			GameManager.Instance.Player.m_MovementLock.Lock(isStatic: false, 2.1f);
 			GameManager.Instance.Player.SetAnimationTrigger("Drink");
 		}
 	}

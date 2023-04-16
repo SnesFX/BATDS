@@ -129,11 +129,11 @@ public class CameraController : MonoBehaviour
 		m_Pitch.transform.position = (PitchPosition = Vector3.Lerp(PitchPosition, TD_PivotPoint.position, 0.1f));
 	}
 
-    private void Update3rdPerson()
-    {
-        float thirdPersonRotationDelta = ThirdPersonRotationDelta;
-        float someValue = 0f;
-    }
+	private void Update3rdPerson()
+	{
+		_ = ThirdPersonRotationDelta;
+		_ = 0f;
+	}
 
 	public void Rotate3rdPerson(float DIR)
 	{

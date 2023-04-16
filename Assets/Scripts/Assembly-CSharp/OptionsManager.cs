@@ -128,17 +128,14 @@ public class OptionsManager : MonoBehaviour
 			QualitySettings.masterTextureLimit = 3;
 			if ((bool)postProcessVolume)
 			{
-				Bloom bloomSetting;
-                if (postProcessVolume.sharedProfile.TryGetSettings<Bloom>(out bloomSetting))
-                {
-                    bloomSetting.active = false;
-                }
-
-                ColorGrading colorGradingSetting;
-                if (postProcessVolume.sharedProfile.TryGetSettings<ColorGrading>(out colorGradingSetting))   
-                {
-                    colorGradingSetting.active = false;
-                }
+				if (postProcessVolume.sharedProfile.TryGetSettings<Bloom>(out var outSetting))
+				{
+					outSetting.active = false;
+				}
+				if (postProcessVolume.sharedProfile.TryGetSettings<ColorGrading>(out var outSetting2))
+				{
+					outSetting2.active = false;
+				}
 			}
 			return;
 		}
@@ -147,17 +144,14 @@ public class OptionsManager : MonoBehaviour
 		QualitySettings.shadowResolution = ShadowResolution.Medium;
 		if ((bool)postProcessVolume)
 		{
-			AmbientOcclusion ambientOcclusionSetting;
-            if (postProcessVolume.sharedProfile.TryGetSettings<AmbientOcclusion>(out ambientOcclusionSetting))
-            {
-                ambientOcclusionSetting.active = false;
-            }
-
-            MotionBlur motionBlurSetting;
-            if (postProcessVolume.sharedProfile.TryGetSettings<MotionBlur>(out motionBlurSetting))
-            {
-                motionBlurSetting.active = false;
-            }
+			if (postProcessVolume.sharedProfile.TryGetSettings<AmbientOcclusion>(out var outSetting3))
+			{
+				outSetting3.active = false;
+			}
+			if (postProcessVolume.sharedProfile.TryGetSettings<MotionBlur>(out var outSetting4))
+			{
+				outSetting4.active = false;
+			}
 		}
 	}
 
@@ -171,16 +165,13 @@ public class OptionsManager : MonoBehaviour
 			QualitySettings.masterTextureLimit = 3;
 			if ((bool)postProcessVolume)
 			{
-				Bloom bloomSetting;
-				if (postProcessVolume.sharedProfile.TryGetSettings<Bloom>(out bloomSetting))
+				if (postProcessVolume.sharedProfile.TryGetSettings<Bloom>(out var outSetting))
 				{
-					bloomSetting.active = true;
+					outSetting.active = true;
 				}
-
-				ColorGrading colorGradingSetting;
-				if (postProcessVolume.sharedProfile.TryGetSettings<ColorGrading>(out colorGradingSetting))
+				if (postProcessVolume.sharedProfile.TryGetSettings<ColorGrading>(out var outSetting2))
 				{
-					colorGradingSetting.active = true;
+					outSetting2.active = true;
 				}
 			}
 			return;
@@ -190,16 +181,13 @@ public class OptionsManager : MonoBehaviour
 		QualitySettings.shadowResolution = ShadowResolution.Medium;
 		if ((bool)postProcessVolume)
 		{
-			AmbientOcclusion ambientOcclusionSetting;
-			if (postProcessVolume.sharedProfile.TryGetSettings<AmbientOcclusion>(out ambientOcclusionSetting))
+			if (postProcessVolume.sharedProfile.TryGetSettings<AmbientOcclusion>(out var outSetting3))
 			{
-				ambientOcclusionSetting.active = true;
+				outSetting3.active = true;
 			}
-
-			MotionBlur motionBlurSetting;
-			if (postProcessVolume.sharedProfile.TryGetSettings<MotionBlur>(out motionBlurSetting))
+			if (postProcessVolume.sharedProfile.TryGetSettings<MotionBlur>(out var outSetting4))
 			{
-				motionBlurSetting.active = false;
+				outSetting4.active = false;
 			}
 		}
 	}
@@ -214,16 +202,13 @@ public class OptionsManager : MonoBehaviour
 			QualitySettings.masterTextureLimit = 2;
 			if ((bool)postProcessVolume)
 			{
-				Bloom bloomSetting;
-				if (postProcessVolume.sharedProfile.TryGetSettings<Bloom>(out bloomSetting))
+				if (postProcessVolume.sharedProfile.TryGetSettings<Bloom>(out var outSetting))
 				{
-					bloomSetting.active = true;
+					outSetting.active = true;
 				}
-
-				ColorGrading colorGradingSetting;
-				if (postProcessVolume.sharedProfile.TryGetSettings<ColorGrading>(out colorGradingSetting))
+				if (postProcessVolume.sharedProfile.TryGetSettings<ColorGrading>(out var outSetting2))
 				{
-					colorGradingSetting.active = true;
+					outSetting2.active = true;
 				}
 			}
 			return;
@@ -233,16 +218,13 @@ public class OptionsManager : MonoBehaviour
 		QualitySettings.shadowResolution = ShadowResolution.High;
 		if ((bool)postProcessVolume)
 		{
-			AmbientOcclusion ambientOcclusionSetting;
-			if (postProcessVolume.sharedProfile.TryGetSettings<AmbientOcclusion>(out ambientOcclusionSetting))
+			if (postProcessVolume.sharedProfile.TryGetSettings<AmbientOcclusion>(out var outSetting3))
 			{
-				ambientOcclusionSetting.active = true;
+				outSetting3.active = true;
 			}
-
-			MotionBlur motionBlurSetting;
-			if (postProcessVolume.sharedProfile.TryGetSettings<MotionBlur>(out motionBlurSetting))
+			if (postProcessVolume.sharedProfile.TryGetSettings<MotionBlur>(out var outSetting4))
 			{
-				motionBlurSetting.active = true;
+				outSetting4.active = true;
 			}
 		}
 	}
