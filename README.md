@@ -3,6 +3,6 @@
 
  Use Unity 2018 with PSVita Support to Compile.
 
- This doesn't work fully so don't go complaining.
+ This doesn't fully work so don't go complaining.
 
  Downloads will be in the releases tab.
